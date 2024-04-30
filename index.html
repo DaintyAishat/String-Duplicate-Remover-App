@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Page 1: Input page -->
+        <div id="page1">
+            <div class="input-container">
+                <input type="text" id="inputString" placeholder="Enter a string">
+            </div>
+            <button class="button" onclick="submitString()">Submit</button>
+        </div>
+         <!-- Page 2: Remover page -->
+        <div id="page2" style="display: none;">
+            <div id="originalString"></div>
+            <div id="adjustedString"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
